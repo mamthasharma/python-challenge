@@ -16,7 +16,7 @@ print_result=[]
 csvpath = os.path.join('election_data.csv')
 
 #path to the output file
-output_path = os.path.join("new.csv")
+output_path = os.path.join("ElectionResults.csv")
 with open(csvpath) as csvfile:
     csvreader=csv.reader(csvfile, delimiter=',')
     next(csvreader, None) 
